@@ -9,10 +9,10 @@ public class Activity3_Banaag {
         if (age >= 18 && hasValidID){
             System.out.println("You are allowed to enter an event.");
         }else{
-            System.out.println("You are noy allowed to enter the event");
+            System.out.println("You are not allowed to enter the event");
         }
 
-        boolean isWeekend = true;
+        boolean isWeekend = false;
         boolean isHoliday = false;
         if (isWeekend || isHoliday){
             System.out.println("No classes if it is a weekend  OR a holiday");

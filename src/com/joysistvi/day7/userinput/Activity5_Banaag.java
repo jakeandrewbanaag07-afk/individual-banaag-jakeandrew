@@ -103,9 +103,9 @@ public class Activity5_Banaag {
         int action = scanner.nextInt();
 
         // Subscribe or exit
-        if (action == 1) {
+        if (choice == 1) {
             System.out.println("You are now subscribed to " + promo);
-        } else if (action == 2) {
+        } else if (choice == 2) {
             System.out.println("Exiting...");
         } else {
             System.out.println("Invalid choice!");

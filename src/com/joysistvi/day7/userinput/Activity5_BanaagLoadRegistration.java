@@ -1,7 +1,7 @@
 package com.joysistvi.day7.userinput;
 
 import java.util.Scanner;
-public class Activity5_Banaag {
+public class Activity5_BanaagLoadRegistration {
 
     public static void main(String[] args) {
 

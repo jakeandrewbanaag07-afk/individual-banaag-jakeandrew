@@ -1,0 +1,89 @@
+package com.joysistvi.day7.nestedifstatement;
+
+public class NestedIfStatement {
+    public static void main(String[] args) {
+
+        /*
+        Age: 0 - 2 → Baby
+        Age: 3 - 12 → Child
+        Age: 13 - 19 → Teenager
+        Age: 20 - 29 → Young Adult
+        Age: 30 - 59 → Adult
+        Age: 60 - 100 → Senior
+        */
+
+
+        int age = 2;
+        String category;
+        String subCategory = "";
+
+        if (age < 0 || age > 100) {
+            System.out.println("Invalid Age");
+            return;
+        }
+
+        if (age >= 60) {
+            category = "Senior";
+            // 60 - 75 -> Young-old senior
+            // 76 - 100 -> Old Senior
+
+            if (age >= 76) {
+                subCategory = "Old Senior";
+
+            } else {
+                subCategory = "Young-old senior";
+
+
+            }
+        } else if (age >= 30) {
+            category = "Adult";
+
+        } else if (age >= 20) {
+            category = "Young Adult";
+        } else if (age >= 13) {
+            category = "Teenager";
+        } else if (age >= 3) {
+            category = "Child";
+        } else {
+            category = "Baby";
+            // 0-1 year old -> Infant
+            // 2 years -> Toddler
+
+            if(age == 2 ){
+                subCategory = "Toddler";
+            } else {
+                subCategory = "Infant";
+            }
+        }
+
+        System.out.println("Category: " + category);
+        System.out.println("Sub-category: " + subCategory);
+
+    }
+}
+
+        /*
+        if(age >=0 && age <=100){
+            if(age >= 60){
+                category = "Senior";
+            } else if (age >= 30) {
+                category = "Adult";
+            }else if (age >= 20) {
+                category = "Young Adult";
+            }else if (age >= 13) {
+                category = "Teenager";
+            }else if (age >= 3) {
+                category = "Child";
+            }else {
+                category = "Baby";
+            }
+            System.out.println("Category: " +category);
+        }else{
+            System.out.println("Invalid Age");
+        }
+
+        sc.close();
+
+         */
+
+

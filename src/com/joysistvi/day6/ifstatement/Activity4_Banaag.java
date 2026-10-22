@@ -3,7 +3,7 @@ package com.joysistvi.day6.ifstatement;
 public class Activity4_Banaag {
     public static void main(String[] args) {
 
-        int age = 19;
+        int age = 101;
         String result;
 
         if (age <= 2){

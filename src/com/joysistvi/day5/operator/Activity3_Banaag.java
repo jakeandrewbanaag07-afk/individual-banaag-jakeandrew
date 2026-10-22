@@ -1,4 +1,4 @@
-package com.joysistvi.day5;
+package com.joysistvi.day5.operator;
 
 public class Activity3_Banaag {
     public static void main(String[] args) {

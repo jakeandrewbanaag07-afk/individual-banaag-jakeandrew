@@ -1,4 +1,5 @@
-package com.joysistvi.day7.userinput;
+
+
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package com.joysistvi.day7.userinput;
+package com.joysistvi.day8.userinput;
 import java.util.Scanner;
 public class UserInput {
 
@@ -6,10 +6,15 @@ public class UserInput {
 
         Scanner scanner = new Scanner(System.in);
 
+        String code = scanner.nextLine();
+        int choice = scanner.nextInt();
+        int p = scanner.nextInt();
+        String promo = "";
+
         // Ask for the USSD code
         System.out.println("Dial *143# to access Globe Services");
         System.out.print("Enter USSD Code: ");
-        String code = scanner.nextLine();
+
 
         // Check if the code is correct
         if (!code.equals("*143#")) {
@@ -25,9 +30,8 @@ public class UserInput {
         System.out.println("[4] UNLI 5G");
         System.out.println("[5] ALLNET");
         System.out.print("Enter a choice: ");
-        int choice = scanner.nextInt();
 
-        String promo = "";
+
 
         // Show promos based on the user choice
         if (choice == 1) {
@@ -62,7 +66,7 @@ public class UserInput {
 
         // Get the selected promo number
         System.out.print("Enter a choice: ");
-        int p = scanner.nextInt();
+
 
         // Match the selected promo
         if (choice == 1) {

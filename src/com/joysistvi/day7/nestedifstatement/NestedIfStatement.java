@@ -1,4 +1,4 @@
-package com.joysistvi.day7.nestedifstatement;
+package com.joysistvi.day8.nestedifstatement;
 
 public class NestedIfStatement {
     public static void main(String[] args) {

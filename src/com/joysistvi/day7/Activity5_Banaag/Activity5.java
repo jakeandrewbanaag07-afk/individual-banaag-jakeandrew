@@ -1,17 +1,21 @@
-package com.joysistvi.day7.Activity5_Banaag;
+package com.joysistvi.day8.Activity5_Banaag;
 import java.util.Scanner;
 
 public class Activity5 {
 
     public static void main(String[] args) {
+
+
         Scanner scanner = new Scanner(System.in);
 
         // Ask for the USSD code
+
         System.out.println("Dial *143# to access Globe Services");
         System.out.print("Enter USSD Code: ");
         String code = scanner.nextLine();
 
         // Check if the code is correct
+
         if (!code.equals("*143#")) {
             System.out.println("Invalid code!");
             return;
@@ -30,6 +34,8 @@ public class Activity5 {
         String promo = "";
 
         // Show promos based on the user choice
+
+
         if (choice == 1) {
             System.out.println("*** Go+ Promos ***");
             System.out.println("[1] Go+99");
@@ -61,10 +67,14 @@ public class Activity5 {
         }
 
         // Get the selected promo number
+
+
         System.out.print("Enter a choice: ");
         int p = scanner.nextInt();
 
         // Match the selected promo
+
+
         if (choice == 1) {
             if (p == 1) promo = "Go+99";
             else if (p == 2) promo = "Go+129";
@@ -88,12 +98,16 @@ public class Activity5 {
         }
 
         // Check if the promo number is valid
+
+
         if (promo.equals("")) {
             System.out.println("Invalid choice!");
             return;
         }
 
         // Display promo details
+
+
         System.out.println("*** " + promo + " Promo ***");
         System.out.println("-> Get 8 GB for all sites + 8GB");
         System.out.println("[1] Subscribe");
@@ -102,6 +116,8 @@ public class Activity5 {
         int action = scanner.nextInt();
 
         // Subscribe or exit
+
+
         if (action == 1) {
             System.out.println("You are now subscribed to " + promo);
         } else if (action == 2) {

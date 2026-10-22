@@ -1,10 +1,10 @@
 package com.joysistvi.day7.userinput;
 
 import java.util.Scanner;
+
 public class Activity5_Banaag {
 
     public static void main(String[] args) {
-
         Scanner scanner = new Scanner(System.in);
 
         // Ask for the USSD code
@@ -113,8 +113,5 @@ public class Activity5_Banaag {
 
         scanner.close();
 
-        
-
     }
-
 }

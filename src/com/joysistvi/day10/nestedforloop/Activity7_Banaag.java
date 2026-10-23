@@ -10,7 +10,7 @@ public class Activity7_Banaag {
                 System.out.println(i + " * " + j + " = " + (i * j));
             }//end of i
             System.out.println(); //; new line
-        }//end of j */
+        }//end of j *
 
     }
 }

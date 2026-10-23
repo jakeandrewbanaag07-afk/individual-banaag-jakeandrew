@@ -7,7 +7,7 @@ public class Activity6_Banaag {
 
         Scanner scanner = new Scanner(System.in);
 
-        // Ask for a number
+        // Ask for a number5
         System.out.print("Enter a number: ");
         int number = scanner.nextInt();
 

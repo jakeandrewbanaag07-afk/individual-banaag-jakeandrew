@@ -4,6 +4,24 @@ import java.util.Scanner;
 public class WhileLoopStatement {
 
     public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
+        //boolean isRunning = true;
+        ;
+
+        while (true) {
+            System.out.println(" * Load Reg * ");
+            System.out.println(" [1] Text Only!");
+            System.out.println(" [2] Call Only!");
+            System.out.println(" [3] Call N Text!");
+            System.out.println(" [0] exit");
+            System.out.print("Enter your choice: ");
+            int choice = scanner.nextInt();
+
+
+       // }if (choice == 0){
+        //    System.out.println("Exiting...");
+         //  break;
+        }
 
 
 

@@ -11,7 +11,7 @@ public class StringClass {
         String correctUsername = "admin";
         String correctPassword = "admin123";
 
-        for (int tries = 1; tries<= 5; tries++){
+        for (int tries = 1; tries <= 5; tries++){
 
             System.out.println("Enter Username: ");
             String username = scanner.nextLine();
@@ -87,7 +87,7 @@ public class StringClass {
         System.out.println("[N] No - Return to Main Menu");
 
         System.out.println("\nEnter your choice: ");
-        String choice = String.valueOf(scanner.nextLine().charAt(0));
+        String choice = String.valueOf(scanner.nextLine().trim().charAt(0));
 
         if (choice.equalsIgnoreCase("Y")){
             System.out.println("Exiting... ");

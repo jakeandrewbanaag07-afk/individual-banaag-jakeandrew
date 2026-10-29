@@ -3,12 +3,13 @@ package com.joysistvi.day13.string;
 public class Activity10_Banaag {
 
     public static void main(String[] args) {
+
         String text = "Hello Java World";
 
         // 1. contains()  ->  "Is this word inside my text?"
         // Answer is true or false.
-        System.out.println(text.contains("World"));   // true  (World is in the text)
-        System.out.println(text.contains("Python"));  // false (Python is NOT in the text)
+        System.out.println(text.contains(" World"));   // true
+        System.out.println(text.contains("Python"));  // false
 
         // 2. startsWith()  ->  "Does my text BEGIN with this?"
         System.out.println(text.startsWith("Hello")); // true
@@ -51,35 +52,28 @@ public class Activity10_Banaag {
         // a
 
 
-        String country = "Philippines";
+        String country = "Philippines".toLowerCase();
+        String vowels = "aeiou";
+        int count = 0;
 
-// First character (index 0)
-        System.out.println("First character: " + country.charAt(0));
+        for (int i = 0; i < country.length(); i++) {
+            if (country.charAt(i) == 'P' || country.charAt(i) == 'p'){
+                count++;
+            }
 
-// Last character (index = length - 1)
-        System.out.println("Last character: " + country.charAt(country.length() - 1));
+        }
+        System.out.println("Letter P/p Count: " + count);
 
-// Make everything lowercase so 'P' and 'p' are the same
-        String lower = country.toLowerCase();
-
-// Count 'p'
-        int pCount = 0;                              // counter starts at 0
-        for (int i = 0; i < lower.length(); i++) {   // go through every letter
-            if (lower.charAt(i) == 'p') {            // is it a 'p'?
-                pCount++;                            // yes, add 1
+        count = 0;
+        for (int i = 0; i < country.length(); i++) {
+            for (int j = 0; j < vowels.length(); j++) {
+                if (country.charAt(i) == vowels.charAt(j)) {
+                    count++;
+                }
             }
         }
-        System.out.println("P/p appears: " + pCount);
 
-// Count vowels
-        int vowelCount = 0;
-        for (int i = 0; i < lower.length(); i++) {
-            char ch = lower.charAt(i);               // current letter
-            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-                vowelCount++;                        // it's a vowel, add 1
-            }
-        }
-        System.out.println("Total vowels: " + vowelCount);
+        System.out.println("Vowels Count: " + count);
 
     }
 }

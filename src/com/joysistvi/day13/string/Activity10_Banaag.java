@@ -45,11 +45,7 @@ public class Activity10_Banaag {
         for (int i = 0; i < letters.length; i++) {
             System.out.println(letters[i]);
         }
-        // Prints:
-        // J
-        // a
-        // v
-        // a
+      
 
 
         String country = "Philippines".toLowerCase();

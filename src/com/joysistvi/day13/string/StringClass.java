@@ -46,8 +46,7 @@ public class StringClass {
 }
 
 
-
-/* System.out.println("*** Login ***");
+/*
 
 
         while(true){

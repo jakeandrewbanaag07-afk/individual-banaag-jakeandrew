@@ -2,47 +2,14 @@ package com.joysistvi.day13.string;
 
 import java .util.Scanner;
 
-public class StringClass {
+public class LoginProgram {
 
     public static void main(String[] args) {
         // login Program
-        Scanner scanner = new Scanner(System.in);
 
-        String correctUsername = "admin";
-        String correctPassword = "admin123";
-
-        for (int tries = 1; tries <= 5; tries++){
-
-            System.out.println("Enter Username: ");
-            String username = scanner.nextLine();
-
-            System.out.println("Enter Password: ");
-            String password = scanner.nextLine();
-
-            // validatiion
-            if(username.isEmpty() && password.isEmpty()) {
-                System.out.println("Username and Password cannot be empty.");
-            }
-            // authentication
-            if(username.equals(correctUsername) && password.equals(correctPassword)){
-                System.out.println("Login Successfully");
-                System.out.println("Welcome, " + username + "!");
-                break;
-            }else{
-                System.out.println("Invalid Username or Password.");
-                System.out.println("\nAccess Denied.");
-                if (tries < 5){
-                    System.out.println("Attemps remaining: " + (5- tries));
-                }else{
-                    System.out.println("Maximum attempts reached. ");
-                }
-
-            }
-            System.out.println();
-        }
-        scanner.close();
 
     }
+
 }
 
 
@@ -118,3 +85,38 @@ public class StringClass {
 
 
 */
+/*  Scanner scanner = new Scanner(System.in);
+
+        String correctUsername = "admin";
+        String correctPassword = "admin123";
+
+        for (int tries = 1; tries <= 5; tries++){
+
+            System.out.println("Enter Username: ");
+            String username = scanner.nextLine();
+
+            System.out.println("Enter Password: ");
+            String password = scanner.nextLine();
+
+            // validatiion
+            if(username.isEmpty() && password.isEmpty()) {
+                System.out.println("Username and Password cannot be empty.");
+            }
+            // authentication
+            if(username.equals(correctUsername) && password.equals(correctPassword)){
+                System.out.println("Login Successfully");
+                System.out.println("Welcome, " + username + "!");
+                break;
+            }else{
+                System.out.println("Invalid Username or Password.");
+                System.out.println("\nAccess Denied.");
+                if (tries < 5){
+                    System.out.println("Attemps remaining: " + (5- tries));
+                }else{
+                    System.out.println("Maximum attempts reached. ");
+                }
+
+            }
+            System.out.println();
+        }
+        scanner.close();*/

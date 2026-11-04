@@ -1,7 +1,6 @@
-package com.joysistvi.day3.variables;
+package com.joysistvi.day3.varibales;
 
-public class Variables {
-
+public class Activity1_Banaag {
 
     public static void main(String[] args) {
 
@@ -27,4 +26,3 @@ public class Variables {
 
     }
 }
-

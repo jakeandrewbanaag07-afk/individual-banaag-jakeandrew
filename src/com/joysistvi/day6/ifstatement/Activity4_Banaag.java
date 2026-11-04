@@ -1,6 +1,7 @@
 package com.joysistvi.day6.ifstatement;
 
 public class Activity4_Banaag {
+
     public static void main(String[] args) {
 
         int age = 101;
@@ -25,4 +26,5 @@ public class Activity4_Banaag {
         System.out.println("Age: " + age);
         System.out.println("Category: " + result);
     }
+
 }

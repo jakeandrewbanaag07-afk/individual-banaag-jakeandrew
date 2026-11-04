@@ -1,6 +1,7 @@
 package com.joysistvi.day5.operator;
 
 public class AssignmentOperator {
+
     public static void main(String[] args) {
         // simple assignment
         int num = 10;

@@ -1,7 +1,5 @@
 package com.joysistvi.day6.ifstatement;
 
-import java.sql.SQLOutput;
-
 public class IfElseStatement {
 
     public static void main(String[] args) {
@@ -9,7 +7,7 @@ public class IfElseStatement {
         // program that identifies if age is valid or invalid
         int age = 17;
 
-       // String result = (age >= 18) ? "Valid Age" : "Invalid Age";
+        // String result = (age >= 18) ? "Valid Age" : "Invalid Age";
         // System.out.println(result);
 
         String result = "";

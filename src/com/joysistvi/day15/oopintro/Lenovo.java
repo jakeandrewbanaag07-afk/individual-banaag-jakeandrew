@@ -4,7 +4,7 @@ public class Lenovo {
     public static void main(String[] args) {
 
 
-    Lenovo lenovo = new Lenovo();
+        Lenovo lenovo = new Lenovo();
     }
 
 }

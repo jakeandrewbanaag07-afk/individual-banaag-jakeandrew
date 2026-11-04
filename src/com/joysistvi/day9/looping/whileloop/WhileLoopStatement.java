@@ -18,9 +18,9 @@ public class WhileLoopStatement {
             int choice = scanner.nextInt();
 
 
-       // }if (choice == 0){
-        //    System.out.println("Exiting...");
-         //  break;
+            // }if (choice == 0){
+            //    System.out.println("Exiting...");
+            //  break;
         }
 
 

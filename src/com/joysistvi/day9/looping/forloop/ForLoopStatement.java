@@ -5,7 +5,7 @@ public class ForLoopStatement {
     public static void main(String[] args) {
 
 
-    ;
+        ;
 
         // Print the first 10 even number
 

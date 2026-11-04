@@ -1,4 +1,4 @@
-package com.joysistvi.day9.looping;
+package com.joysistvi.day9.looping.activity;
 import java.util.Scanner;
 
 public class Activity6_Banaag {
@@ -21,4 +21,3 @@ public class Activity6_Banaag {
         scanner.close();
     }
 }
-

@@ -1,4 +1,4 @@
-package com.joysistvi.day11.singledarray;
+package com.joysistvi.day11.singledarray.activity;
 import java .util.Scanner;
 public class Activity8_Banaag {
 

@@ -1,6 +1,7 @@
-package com.joysistvi.day8.nestedifstatement;
+package com.joysistvi.day7.nestedif;
 
 public class NestedIfStatement {
+
     public static void main(String[] args) {
 
         /*
@@ -85,5 +86,3 @@ public class NestedIfStatement {
         sc.close();
 
          */
-
-

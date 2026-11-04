@@ -1,6 +1,7 @@
 package com.joysistvi.day5.operator;
 
 public class TernaryOperator {
+
     public static void main(String[] args) {
 
         //  syntax

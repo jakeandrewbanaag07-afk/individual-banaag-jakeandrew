@@ -54,7 +54,7 @@ public class Activity11_Banaag {
 
         // 13. Math.sin() - Gets the sine of an angle.
         // Example: The sine of 90 degrees is 1.
-       // System.out.println("13. Sine: " + Math.sin(Math.toRadians(90)));
+        // System.out.println("13. Sine: " + Math.sin(Math.toRadians(90)));
 
         // 14. Math.cos() - Gets the cosine of an angle.
         // Example: The cosine of 0 degrees is 1.

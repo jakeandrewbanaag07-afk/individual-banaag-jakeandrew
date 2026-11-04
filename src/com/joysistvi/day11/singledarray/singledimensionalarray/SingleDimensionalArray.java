@@ -19,7 +19,7 @@ public class SingleDimensionalArray {
 
         for (int i = 0; i < ages.length; i ++){
 
-       }
+        }
 
         // for-each loop / enchance for -loop
 

@@ -1,26 +1,16 @@
 package com.joysistvi.day5.operator;
 
-public class LogicalOperator {
+public class Logicaloperator {
+
     public static void main(String[] args) {
+        // simple assignment
+        int num = 10;
 
-    // compound conditional statement
+        // compound assignment
+        int num2 =10;
 
-    //int age = 18;
+        num2 += 10;
+        System.out.println(num2);
 
-    //boolean isJuniorHigh =  age >= 13 && age <= 17;
-    //boolean isAdult =!(age < 18);
-    //System.out.println(isJuniorHigh);
-    //System.out.println(isAdult);
-
-
-    int num = 10;
-    int num2 = 20;
-    System.out.println(num> num2 && num < num2);
-    System.out.println(num> num2 || num < num2);
-
-
-
-
-
-}
+    }
 }

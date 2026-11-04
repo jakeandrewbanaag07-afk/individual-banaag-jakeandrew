@@ -6,12 +6,12 @@ public class DoWhileLoopStatement {
     public static void main(String[] args) {
         //String color = "Black";
         //while (color == "White") {
-       //     System.out.println(color);
+        //     System.out.println(color);
         //}
 
-       //String color = "Black";
+        //String color = "Black";
         //do {
-       //    System.out.println(color);
+        //    System.out.println(color);
         //}while(color == "White");
 
 

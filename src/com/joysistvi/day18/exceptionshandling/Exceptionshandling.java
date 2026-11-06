@@ -2,7 +2,7 @@ package com.joysistvi.day18.exceptionshandling;
 
 import java.util.Scanner;
 
-public class ExceptionsHandling {
+class ExceptionsHandling {
 
     public static void main(String[] args) {
 

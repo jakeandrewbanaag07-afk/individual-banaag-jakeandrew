@@ -6,7 +6,7 @@ public class Main {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        // ---------- STEP 1: Ask for the six fields ----------
+        
         System.out.println("*** User Registration ***");
         System.out.println("Please enter the details below:\n");
 
@@ -28,11 +28,11 @@ public class Main {
         System.out.print("Enter password: ");
         String password = input.nextLine();
 
-        // ---------- STEP 2: Create the object with the constructor ----------
+
         UserAccount account = new UserAccount(firstName, middleName, lastName,
                 address, email, password);
 
-        // ---------- STEP 3: Display it (calls toString automatically) ----------
+
         System.out.println();
         System.out.println(account);
 

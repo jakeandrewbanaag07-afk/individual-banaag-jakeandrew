@@ -2,7 +2,7 @@ package com.joysistvi.day21.Activity14;
 
 public class UserAccount {
 
-    // ---------- PART 1: Fields (private) ----------
+
     private String firstName;
     private String middleName;
     private String lastName;
@@ -10,7 +10,7 @@ public class UserAccount {
     private String email;
     private String password;
 
-    // ---------- PART 2: Constructor (NEW) ----------
+
     public UserAccount(String firstName, String middleName, String lastName,
                        String address, String email, String password) {
         this.firstName = firstName;     // no rules, assign directly
@@ -21,7 +21,7 @@ public class UserAccount {
         this.setPassword(password);     // has rules, so use the setter
     }
 
-    // ---------- PART 3: Getters and setters ----------
+
     public String getFirstName() { return firstName; }
     public void setFirstName(String firstName) { this.firstName = firstName; }
 
@@ -37,7 +37,7 @@ public class UserAccount {
     public String getEmail() { return email; }
     public String getPassword() { return password; }
 
-    // Email rule: needs one @, text before it, and a dot with text after the @.
+
     public void setEmail(String email) {
         int at = email.indexOf('@');
         int dot = email.lastIndexOf('.');
@@ -54,7 +54,7 @@ public class UserAccount {
         }
     }
 
-    // Password rules: 8+ characters, one uppercase, one lowercase, one digit.
+
     public void setPassword(String password) {
         boolean hasUpper = false, hasLower = false, hasDigit = false;
         for (char c : password.toCharArray()) {
@@ -76,9 +76,7 @@ public class UserAccount {
         }
     }
 
-    // ---------- PART 4: toString (NEW) ----------
-    // The password is left out on purpose: printing it would expose
-    // a secret on screens, logs, and anywhere the object is displayed.
+
     @Override
     public String toString() {
         return "=== Account Details ===\n"

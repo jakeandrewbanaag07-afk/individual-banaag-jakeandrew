@@ -42,7 +42,7 @@ public class Main {
         testPen(Marker);
         System.out.println();
 
-        // Part 4: overloading
+        //  overloading
         System.out.println("=== Overloading ===");
         Marker.write("Hello");     //  prints once
         Marker.write("Hello", 3);  // prints 3 times

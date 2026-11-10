@@ -14,8 +14,8 @@ public class Main {
 
         //  Create objects
         Pen pen = new Pen("Panda", "Blue", 15.0);
-        Pen pen2 = new Ballpen("Pilot", "Black", 20.0, 1.0);
-        Pen pen3 = new Marker("Pentel", "Red", 35.0, true);
+        Pen Ballpen = new Ballpen("Pilot", "Black", 20.0, 1.0);
+        Pen Marker = new Marker("Pentel", "Red", 35.0, true);
 
         // polymorphism, called directly
         System.out.println("=== Calling methods on Pen references ===");
@@ -26,25 +26,25 @@ public class Main {
         System.out.println();
 
         System.out.println("--- Ballpen ---");
-        pen2.write();
-        pen2.refill();
+        Ballpen.write();
+        Ballpen.refill();
         System.out.println();
 
         System.out.println("--- Marker ---");
-        pen3.write();
-        pen3.refill();
+        Marker.write();
+        Marker.refill();
         System.out.println();
 
         //  polymorphism, through testPen()
         System.out.println("=== testPen() ===");
         testPen(pen);
-        testPen(pen2);
-        testPen(pen3);
+        testPen(Ballpen);
+        testPen(Marker);
         System.out.println();
 
         // Part 4: overloading
         System.out.println("=== Overloading ===");
-        pen3.write("Hello");     //  prints once
-        pen3.write("Hello", 3);  // prints 3 times
+        Marker.write("Hello");     //  prints once
+        Marker.write("Hello", 3);  // prints 3 times
     }
 }

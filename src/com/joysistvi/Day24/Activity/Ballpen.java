@@ -1,23 +1,17 @@
-package com.joysistvi.day23.Activity;
+package com.joysistvi.Day24.Activity;
 
-// Child class: inherits brand, color, weight, and their getters/setters from Pen.
-public class Ballpen extends Pen {
+public class Ballpen extends Pen implements Refillable, Clickable {
 
-    //  Data member
     private double pointSize;
 
-    // Constructor
-    // super(...) sends the shared data up to Pen's constructor.
     public Ballpen(String brand, String color, double weightInGrams, double pointSize) {
-        super(brand, color, weightInGrams);
+        super(brand, color, weightInGrams);   // shared data goes up to Pen
         this.pointSize = pointSize;
     }
 
-    // Getter and setter
     public double getPointSize() { return pointSize; }
     public void setPointSize(double pointSize) { this.pointSize = pointSize; }
 
-    //  Overridden methods
     @Override
     public void write() {
         System.out.println("Writing smoothly with a ballpen.");
@@ -28,9 +22,14 @@ public class Ballpen extends Pen {
         System.out.println("Replacing the ballpen ink refill.");
     }
 
+
+    @Override
+    public void click() {
+        System.out.println(CLICK_SOUND + " The ballpen tip comes out.");   // constant, not "Click!"
+    }
+
     @Override
     public String toString() {
-        // type + Pen's details (super.toString()) + point size
         return "Type: Ballpen\n"
                 + super.toString() + "\n"
                 + "Point Size: " + pointSize;

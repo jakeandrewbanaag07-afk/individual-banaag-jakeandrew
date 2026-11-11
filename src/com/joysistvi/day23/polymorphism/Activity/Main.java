@@ -1,4 +1,4 @@
-package com.joysistvi.day23.Activity;
+package com.joysistvi.day23.polymorphism.Activity;
 
 public class Main {
 
@@ -14,8 +14,8 @@ public class Main {
 
         //  Create objects
         Pen pen = new Pen("Panda", "Blue", 15.0);
-        Pen Ballpen = new Ballpen("Pilot", "Black", 20.0, 1.0);
-        Pen Marker = new Marker("Pentel", "Red", 35.0, true);
+        Pen Ballpen = new Ballpen("Pilot", "Black", 30.0, 1.0);
+        Pen Marker = new Marker("Pentel", "Red", 14.0, true);
 
         // polymorphism, called directly
         System.out.println("=== Calling methods on Pen references ===");

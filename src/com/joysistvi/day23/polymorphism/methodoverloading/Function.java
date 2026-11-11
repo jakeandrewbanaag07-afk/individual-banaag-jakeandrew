@@ -1,4 +1,4 @@
-package com.joysistvi.day23.polymorphism.methooverloading;
+package com.joysistvi.day23.polymorphism.methodoverloading;
 
 public class Function {
 

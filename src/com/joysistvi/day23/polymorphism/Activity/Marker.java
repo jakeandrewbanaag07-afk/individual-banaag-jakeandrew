@@ -1,4 +1,4 @@
-package com.joysistvi.day23.Activity;
+package com.joysistvi.day23.polymorphism.Activity;
 
 
 public class Marker extends Pen {

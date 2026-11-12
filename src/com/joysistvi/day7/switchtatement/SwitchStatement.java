@@ -6,6 +6,7 @@ public class SwitchStatement {
 
 
         String sizeCode = "XL";
+
         String sizeDescription = "";
 
 

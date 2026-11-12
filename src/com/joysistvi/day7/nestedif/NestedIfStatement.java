@@ -58,6 +58,7 @@ public class NestedIfStatement {
         }
 
         System.out.println("Category: " + category);
+
         System.out.println("Sub-category: " + subCategory);
 
     }

@@ -4,14 +4,14 @@ public class NestedIfStatement {
 
     public static void main(String[] args) {
 
-        /*
-        Age: 0 - 2 → Baby
-        Age: 3 - 12 → Child
-        Age: 13 - 19 → Teenager
-        Age: 20 - 29 → Young Adult
-        Age: 30 - 59 → Adult
-        Age: 60 - 100 → Senior
-        */
+
+//        Age: 0 - 2 → Baby
+//        Age: 3 - 12 → Child
+//        Age: 13 - 19 → Teenager
+//        Age: 20 - 29 → Young Adult
+//        Age: 30 - 59 → Adult
+//        Age: 60 - 100 → Senior
+
 
 
         int age = 2;

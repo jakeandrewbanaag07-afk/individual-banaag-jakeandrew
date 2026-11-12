@@ -3,6 +3,8 @@ package com.joysistvi.day7.switchtatement;
 public class SwitchStatement {
 
     public static void main(String[] args) {
+
+
         String sizeCode = "XL";
         String sizeDescription = "";
 

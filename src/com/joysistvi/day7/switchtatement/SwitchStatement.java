@@ -34,6 +34,8 @@ public class SwitchStatement {
     }
 }
 
+
+
 /*
     Bawal: boolean, long, float , double
     Pwede: byte, short, int, enum

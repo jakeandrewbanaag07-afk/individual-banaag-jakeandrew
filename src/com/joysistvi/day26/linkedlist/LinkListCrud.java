@@ -1,4 +1,4 @@
-package com.joysistvi.day26.collectionsframework;
+package com.joysistvi.day26.linkedlist;
 
 import java.util.Collections;
 import java.util.LinkedList;

@@ -15,12 +15,12 @@ public class Main {
 
         // show the info
         testAccount(savings);
-        System.out.println();            // empty line
+        System.out.println();
         testAccount(checking);
 
         // saving transactions
         System.out.println("\n=== Savings Transactions ===");
-        savings.deposit(1000);                   
+        savings.deposit(1000);
         savings.withdraw(5800);
         savings.deposit(500, "Birthday gift");
         savings.withdraw(1500, "Rent");

@@ -2,7 +2,7 @@ package com.joysistvi.day26.activity;
 
 public class Main {
 
-    //  helper method
+    //  Helper method
     public static void testAccount(Account account) {
         account.displayAccountInfo();
     }

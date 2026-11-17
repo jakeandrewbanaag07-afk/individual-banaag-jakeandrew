@@ -47,7 +47,7 @@ public class SavingsAccount extends Account
         return true;
     }
 
-    // transfer
+    // Transfer
     @Override
     public boolean transfer(Transaction target, double amount) {
         System.out.println("Transferring " + amount + "...");

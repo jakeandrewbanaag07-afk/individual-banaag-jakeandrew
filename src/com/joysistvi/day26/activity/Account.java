@@ -16,7 +16,7 @@ public abstract class Account {
     }
 
 
-    // getter,setter
+    // getter setter
 
     public String getAccountNumber() {
         return accountNumber;
@@ -50,6 +50,6 @@ public abstract class Account {
                 + "Balance: " + balance;
     }
 
-    //  abstract method
+    // abstract method
     public abstract void displayAccountInfo();
 }

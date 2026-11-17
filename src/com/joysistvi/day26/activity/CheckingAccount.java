@@ -36,15 +36,15 @@ public class CheckingAccount extends Account
    // withdraw
     @Override
     public boolean withdraw(double amount) {
-        if (amount <= 0) {                                   // Rule 1
+        if (amount <= 0) {
             System.out.println("Invalid withdrawal amount.");
             return false;
         }
-        if (!isWithinOverdraft(amount)) {                    // Rule 2 ("!" means NOT)
+        if (!isWithinOverdraft(amount)) {
             System.out.println("Withdrawal failed: exceeds the overdraft limit of " + OVERDRAFT_LIMIT);
             return false;
         }
-        setBalance(getBalance() - amount);                   // all good: take the money
+        setBalance(getBalance() - amount);
         System.out.println("Withdrew " + amount + ". New balance: " + getBalance());
         return true;
     }
